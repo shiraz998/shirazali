@@ -18,7 +18,7 @@ if (reduce || !("IntersectionObserver" in window)) {
 (function () {
   const el = document.getElementById("typed");
   if (!el) return;
-  const words = ["Junior WordPress Developer", "Elementor Expert", "HTML/Figma to WordPress", "Website Speed Optimization"];
+  const words = ["WordPress Developer", "Elementor Expert", "HTML/Figma To WordPress", "Website Speed Optimization", "Responsive Website" ];
   if (reduce) { el.textContent = words[0]; return; }
   let w = 0, c = 0, deleting = false;
   function tick() {
